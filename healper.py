@@ -1,6 +1,3 @@
-import numpy as np
-
-
 def return_total_cases(df, start, end, state, col):
     if state != 'All India':
         filter_df = df[(df['Date'] >= str(start)) & (df['Date'] <= str(end))]
